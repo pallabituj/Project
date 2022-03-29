@@ -1,116 +1,79 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
-}
-body{
-    margin: 0;
-}
-h1{
-    font-size: 2.5rem;
+h2{
+    font-size: 1.5rem;
     text-align: center;
 }
-a{
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
+/* about me design starts here */
 
-p{
-    font-size: 1.2rem;
-    text-align: justify;
-}
-
-[class*="col-"]{
-    float: left;
-    padding: 10px;
-}
-
-/* for mobile*/
-[class8="col-"]{
-    width: 100%;
-}
-
-/* navbar design starts here */
-
-.navbar{
-    background-color: #40868b;
+.about-me{
+    background-color: #39a4ac;
     padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: ;
+}
+
+.aboutme-image img{
+    border: 5px solid white;
+    box-sizing: 40%;
+    height: 220px;
+    width: 210px;
+}
+
+.about-me p{
     text-align: center;
 }
 
-.navbar h1{
-    color: white;
-    margin: 0;
-    padding-top: 10px;
+.about-me a{
+    font-size: 1.2rem;
 }
 
-.navbar-menu{
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-}
-
-.navbar-menu a{
-    background-color: #0c6168;
-    border-radius: 10px;
-    margin: 7px 0px;
-    padding: 10px;
-}
-
-.navbar-menu a:hover{
-    background-color: gray;
-}
-
-.navbar::after{
-    content: '';
-    display: table;
+.about-me::after{
     clear: both;
+    display: table;
+    content: '';
 }
 
-/* navbar design ends here */ 
 
-/* profile designe starts from here */
+/* about me design ends here */
 
-    .profile{
-        padding: 130px 10px;
-        position: relative;
-        text-align: center;
-    }
+/* professional-experience starts here */
 
-  .profile .top-weather-icon{
-      position: absolute;
-      right: 60px;
-      top: 20px;
-      transition: transform 3s;
-  }
+.professional-experience{
+    padding: 1% 0%;
+}
 
-  .profile .top-weather-icon:hover{
-      transform: rotate(360deg);{
+.professional-experience .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
 
-  }
-  
-  .profile-desc h1{
-    font-family: 'Satisfy', cursive;
-    font-size: 3rem;
-  }
+.card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
 
-  .profile-desc p{
-      color: grey;
-      margin: 0 auto 20px auto;
-      text-align: center;
-      width: 90%;
-  }
+.card-icon{
+    text-align: center;
+}
 
-  .profile .bottom-weather-icon{
-      position: absolute;
-      left: 60px;
-      bottom: 10px;
-      transition: transform 3s;
-  }
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+}
 
-  .profile .bottom-weather-icon:hover{
-      transform: rotate(360deg);{
-  }
+.rounded-img{
+    border: 5px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.card-title h2{
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 
-/* profile designe ends here */ 
+/* professional-experience ends here */
